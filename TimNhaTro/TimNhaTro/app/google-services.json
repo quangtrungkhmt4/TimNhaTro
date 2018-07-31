@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "108037882118",
+    "firebase_url": "https://timphongtrokydon.firebaseio.com",
+    "project_id": "timphongtrokydon",
+    "storage_bucket": "timphongtrokydon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108037882118:android:90406ad68fa61fea",
+        "android_client_info": {
+          "package_name": "com.example.quang.timnhatro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108037882118-bs18abhvpevcsods02b9sse1t5vattr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quang.timnhatro",
+            "certificate_hash": "00fe6190c06cce4bcb88f623b2eaa10b6747bfa9"
+          }
+        },
+        {
+          "client_id": "108037882118-nghngdsdd2o6q93ke0qundevh4qoh4ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCerz6QXRXGfJ5qUsfCIpKlaC2cRZb7DrI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108037882118-nghngdsdd2o6q93ke0qundevh4qoh4ld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

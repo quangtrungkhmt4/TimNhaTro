@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/baclground"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/logo_large"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <com.example.quang.timnhatro.object.TextBold
+                    android:id="@+id/tvLogin"
+                    android:layout_width="wrap_content"
+                    android:text="tìm nhà trọ"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginTop="20dp"
+                    style="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorBackground"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardUser"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edtUserLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBackground"
+                    android:hint="Tài khoản"
+                    android:textSize="18sp"
+                    android:padding="12dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edtPassLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBackground"
+                    android:hint="Mật khẩu"
+                    android:textSize="18sp"
+                    android:padding="12dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnLogin"
+                    style="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorBackground"
+                    android:text="Đăng nhập"
+                    android:background="@drawable/background_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+            <com.example.quang.timnhatro.object.Text
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:text="Đăng ký tài khoản."
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                style="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorBackground"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.common.SignInButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnLoginGoogle"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content">
+
+            </com.google.android.gms.common.SignInButton>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:padding="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

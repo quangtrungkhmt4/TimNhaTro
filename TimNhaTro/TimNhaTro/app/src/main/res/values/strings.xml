@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TimNhaTro</string>
+    <string name="key_map">AIzaSyAVtpr8MdiWnLaAjN5d5wW-q0SHypp-XbE</string>
+    <string name="m2">m<sup>2</sup></string>
+
+    <string name="facebook_app_id">243292322825383</string>
+    <string name="fb_login_protocol_scheme">fb243292322825383</string>
+</resources>
